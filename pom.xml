@@ -9,6 +9,9 @@
     <groupId>org.jpwh</groupId>
     <artifactId>jpwh</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>examplesDIY</module>
+    </modules>
     <packaging>pom</packaging>
 
     <!-- ##################################################################################################### -->
@@ -243,6 +246,19 @@
                 <module>environment</module>
                 <module>model</module>
                 <module>examples</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>examplesDIY</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <modules>
+                <module>shared</module>
+                <module>environment</module>
+                <module>model</module>
+                <module>examplesDIY</module>
             </modules>
         </profile>
 
