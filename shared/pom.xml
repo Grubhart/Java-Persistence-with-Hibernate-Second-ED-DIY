@@ -62,7 +62,7 @@
         </dependency>
 
         <!-- We extend Hibernate with code in this module, so this is required to compile but optional transitive -->
-        <dependency>/Users/grubhart/Downloads/jpwh-2e-examples-20151103/pom.xml
+        <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
             <version>${hibernate.version}</version>
